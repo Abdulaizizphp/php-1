@@ -1,0 +1,48 @@
+﻿body {
+    background-color: #002E5B;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tdlink {
+    font-family: tahoma;
+    color: #0033CC;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tdfield {
+    padding: 8px;
+    background-color: #0000FF;
+    color: #FFFFFF;
+    font-family: tahoma;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.tdtxt {
+    font-family: 'times New Roman' , Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+    padding: 7px;
+}
+
+.tdfotter {
+     font-family: tahoma;
+    color: #0033CC;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.content{
+	margin-top: 20px;
+	border: 1px #ddd solid;
+	border-radius: 5px;
+    min-height: 450px;
+    padding: 5px;
+}

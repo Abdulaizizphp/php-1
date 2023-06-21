@@ -1,0 +1,175 @@
+﻿ 
+
+@font-face {
+	font-family: 'Cocon_Next_Arabic_Light';
+	src: url('../font/Cocon_Next_Arabic_Light.eot');
+	src: local('☺'), url('../font/Cocon_Next_Arabic_Light.woff') format('woff'), url('../font/Cocon_Next_Arabic_Light.ttf') format('truetype'), url('../font/Cocon_Next_Arabic_Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'moh';
+	src: url('../font/moh.eot');
+	src: local('☺'), url('../font/moh.woff') format('woff'), url('../font/moh.ttf') format('truetype'), url('../font/moh.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'hamada';
+	src: url('../font/hamada.eot');
+	src: local('☺'), url('../font/hamada.woff') format('woff'), url('../font/hamada.ttf') format('truetype'), url('../font/hamada.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'nazaha';
+	src: url('../alm/al-mohanad-bold.eot');
+	src: local('☺'), url('../alm/al-mohanad-bold.woff') format('woff'), url('../alm/al-mohanad-bold.ttf') format('truetype'), url('../alm/al-mohanad-bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+.tdtitelform {
+  
+    color: #FFFFFF;
+    background-color: #4d6136;
+    text-align: right;
+    padding: 10px;
+    font-family: 'nazaha', tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+ 
+     
+}
+
+
+
+
+.tdgiledreg {
+    border-bottom: thin dotted #AAAAAA;
+    font-family: 'nazaha', tahoma;
+    font-size: 15px;
+    padding: 6px;
+    text-align: right;
+    background-color: #F0F0F0;
+    color: #333333;
+    vertical-align :top ;
+ 
+   
+}
+
+.tdfiledtxt {
+    border-bottom: thin dotted #AAAAAA;
+    font-family: 'nazaha', tahoma;
+    font-size: 13px;
+    padding: 6px;
+    text-align: right;
+     
+    color: #333333;
+    vertical-align :top ;
+}
+
+
+
+.form-control9 {
+    display:inline;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    font-family: tahoma;
+    
+}
+
+
+
+
+
+
+ 
+.mm
+{
+
+font-size: 14px;
+    padding-right: 15px;
+    text-align: right;
+     font-family:   tahoma;
+
+
+}
+
+
+.Success
+{
+    background-image: url('../images/40.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    font-family: 'times New Roman' , Times, serif;
+    font-size: 20px;
+    padding-right: 38px;
+    background-color: #E8FFE8;
+    height: 40px;
+    text-align: right;
+    line-height: 2pc;
+      font-family: 'Cocon_Next_Arabic_Light' , tahoma;
+}
+
+
+
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #174022), color-stop(1, #325c1b));
+	background:-moz-linear-gradient(top, #174022 5%, #325c1b 100%);
+	background:-webkit-linear-gradient(top, #174022 5%, #325c1b 100%);
+	background:-o-linear-gradient(top, #174022 5%, #325c1b 100%);
+	background:-ms-linear-gradient(top, #174022 5%, #325c1b 100%);
+	background:linear-gradient(to bottom, #174022 5%, #325c1b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#174022', endColorstr='#325c1b',GradientType=0);
+	background-color:#174022;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:2px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    font-family: 'Cocon_Next_Arabic_Light' , tahoma;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #325c1b), color-stop(1, #174022));
+	background:-moz-linear-gradient(top, #325c1b 5%, #174022 100%);
+	background:-webkit-linear-gradient(top, #325c1b 5%, #174022 100%);
+	background:-o-linear-gradient(top, #325c1b 5%, #174022 100%);
+	background:-ms-linear-gradient(top, #325c1b 5%, #174022 100%);
+	background:linear-gradient(to bottom, #325c1b 5%, #174022 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#325c1b', endColorstr='#174022',GradientType=0);
+	background-color:#325c1b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+

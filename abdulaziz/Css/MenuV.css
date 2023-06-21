@@ -1,0 +1,62 @@
+﻿/* CSSTerm.com Simple CSS menu */
+
+
+@font-face {
+	font-family: 'Cocon_Next_Arabic_Light';
+	src: url('../font/Cocon_Next_Arabic_Light.eot');
+	src: local('☺'), url('../font/Cocon_Next_Arabic_Light.woff') format('woff'), url('../font/Cocon_Next_Arabic_Light.ttf') format('truetype'), url('../font/Cocon_Next_Arabic_Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'moh';
+	src: url('../font/moh.eot');
+	src: local('☺'), url('../font/moh.woff') format('woff'), url('../font/moh.ttf') format('truetype'), url('../font/moh.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'hamada';
+	src: url('../font/GE_SS_Two_Medium.eot');
+	src: local('☺'), url('../font/GE_SS_Two_Medium.woff') format('woff'), url('../font/GE_SS_Two_Medium.ttf') format('truetype'), url('../font/GE_SS_Two_Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+ 
+ 
+
+
+.menu_simple ul
+{
+    width: 185px;
+   
+}
+
+.menu_simple ul li a {
+    text-decoration: none;
+    padding: 10.5px 11px;
+    display: block;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-color: #DFDFDF;
+    text-align: right;
+    font-family: 'Cocon_Next_Arabic_Light' , tahoma;
+    font-size: 15px;
+    color: #333333;
+}
+ 
+.menu_simple ul li a:visited
+{
+    color: #216321;
+    background-color: #B6B6B6;
+}
+ 
+.menu_simple ul li a:hover, .menu_simple ul li .current
+{
+    color: #272727;
+    background-color: #E1E1E1;
+    text-decoration: underline;
+}
